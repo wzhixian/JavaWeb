@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <filter>
+    <filter-name>EncodingFilter</filter-name>
+    <filter-class>com.zking.filter.EncodingFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>EncodingFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>checkImage</servlet-name>
+    <servlet-class>com.zking.Servlet.CheckImgServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>checkImage</servlet-name>
+    <url-pattern>/imageCode</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>register</servlet-name>
+    <servlet-class>com.zking.Servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookstoreServlet</servlet-name>
+    <servlet-class>com.zking.Servlet.BookstoreServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>findProductbookByadtion</servlet-name>
+    <servlet-class>com.zking.Servlet.findProductbookByadtion</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteBook</servlet-name>
+    <servlet-class>com.zking.Servlet.deleteBook</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addBookServlet</servlet-name>
+    <servlet-class>com.zking.Servlet.addBookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelServletByAdmin</servlet-name>
+    <servlet-class>com.zking.Servlet.DelServletByAdmin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>XiugaiBookServlet</servlet-name>
+    <servlet-class>com.zking.Servlet.XiugaiBookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>lookBookServlrt</servlet-name>
+    <servlet-class>com.zking.Servlet.lookBookServlrt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ActiveServlet</servlet-name>
+    <servlet-class>com.zking.Servlet.ActiveServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.zking.Servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CkServlet</servlet-name>
+    <servlet-class>com.zking.Servlet.CkServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>JumpServlet</servlet-name>
+    <servlet-class>com.zking.Servlet.JumpServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyuserinfoServlet</servlet-name>
+    <servlet-class>com.zking.Servlet.ModifyuserinfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyUserMessageServlet</servlet-name>
+    <servlet-class>com.zking.Servlet.ModifyUserMessageServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderlistServlet</servlet-name>
+    <servlet-class>com.zking.Servlet.OrderlistServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderServlet</servlet-name>
+    <servlet-class>com.zking.Servlet.OrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ExitServlet</servlet-name>
+    <servlet-class>com.zking.Servlet.ExitServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteOrderServlet</servlet-name>
+    <servlet-class>com.zking.Servlet.DeleteOrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LookOrderServlet</servlet-name>
+    <servlet-class>com.zking.Servlet.LookOrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Product_list_Servlet</servlet-name>
+    <servlet-class>com.zking.Servlet.Product_list_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BuyServlet</servlet-name>
+    <servlet-class>com.zking.Servlet.BuyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangeNumServlet</servlet-name>
+    <servlet-class>com.zking.Servlet.ChangeNumServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetOrderServlet</servlet-name>
+    <servlet-class>com.zking.Servlet.GetOrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CreateOrderServlet</servlet-name>
+    <servlet-class>com.zking.Servlet.CreateOrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowProductByPage</servlet-name>
+    <servlet-class>com.zking.Servlet.ShowProductByPage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>showOrderListByAdminServlet</servlet-name>
+    <servlet-class>com.zking.Servlet.showOrderListByAdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>orderMessageByAdminServlet</servlet-name>
+    <servlet-class>com.zking.Servlet.orderMessageByAdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>registerActiveServlet</servlet-name>
+    <servlet-class>com.zking.activeServlet.registerActiveServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleOrderByAdminServlet</servlet-name>
+    <servlet-class>com.zking.Servlet.DeleOrderByAdminServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>register</servlet-name>
+    <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookstoreServlet</servlet-name>
+    <url-pattern>/book</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>findProductbookByadtion</servlet-name>
+    <url-pattern>/findProductByManyCondition</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteBook</servlet-name>
+    <url-pattern>/deleteBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addBookServlet</servlet-name>
+    <url-pattern>/addBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelServletByAdmin</servlet-name>
+    <url-pattern>/delServletByAdmin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>XiugaiBookServlet</servlet-name>
+    <url-pattern>/xiugaiBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>lookBookServlrt</servlet-name>
+    <url-pattern>/lookBookServlrt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ActiveServlet</servlet-name>
+    <url-pattern>/activeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/loginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CkServlet</servlet-name>
+    <url-pattern>/servlet/ckServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JumpServlet</servlet-name>
+    <url-pattern>/jumpServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyuserinfoServlet</servlet-name>
+    <url-pattern>/modifyuserinfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyUserMessageServlet</servlet-name>
+    <url-pattern>/modifyUserMessageServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>OrderlistServlet</servlet-name>
+    <url-pattern>/orderlistServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderServlet</servlet-name>
+    <url-pattern>/orderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExitServlet</servlet-name>
+    <url-pattern>/exitServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteOrderServlet</servlet-name>
+    <url-pattern>/deleteOrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LookOrderServlet</servlet-name>
+    <url-pattern>/lookOrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Product_list_Servlet</servlet-name>
+    <url-pattern>/product_list_Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BuyServlet</servlet-name>
+    <url-pattern>/buyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeNumServlet</servlet-name>
+    <url-pattern>/changeNumServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetOrderServlet</servlet-name>
+    <url-pattern>/getOrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreateOrderServlet</servlet-name>
+    <url-pattern>/createOrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowProductByPage</servlet-name>
+    <url-pattern>/showProductByPage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>showOrderListByAdminServlet</servlet-name>
+    <url-pattern>/showOrderListByAdminServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>orderMessageByAdminServlet</servlet-name>
+    <url-pattern>/orderMessageByAdminServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>registerActiveServlet</servlet-name>
+    <url-pattern>/registerActiveServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleOrderByAdminServlet</servlet-name>
+    <url-pattern>/deleOrderByAdminServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/com/zking/Servlet/RegisterServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/zking/Servlet/ShowProductByPage.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/zking/Servlet/XiugaiBookServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/zking/Servlet/addBookServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/zking/bs/DaoImpl/OrderDaoImpl.java" charset="GBK" />
+  </component>
+</project>
